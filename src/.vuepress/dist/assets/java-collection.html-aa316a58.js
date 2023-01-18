@@ -1,0 +1,1 @@
+import{_ as a,V as t,W as c,X as e,Y as o}from"./framework-9a29aaa0.js";const n={},r=e("h1",{id:"java-集合框架",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#java-集合框架","aria-hidden":"true"},"#"),o(" Java 集合框架")],-1),s=[r];function _(l,d){return t(),c("div",null,s)}const h=a(n,[["render",_],["__file","java-collection.html.vue"]]);export{h as default};
