@@ -9,8 +9,8 @@ export default defineUserConfig({
 
     "/": {
       lang: "zh-CN",
-      title: "FC-Blog",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "FCBlog",
+      description: "",
     },
   },
 
@@ -19,16 +19,16 @@ export default defineUserConfig({
       // 索引全部内容
       indexContent: true,
       // 为分类和标签添加索引
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: "分类：$content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: "标签：$content",
-        },
-      ],
+      // customFields: [
+      //   {
+      //     getter: (page) => page.frontmatter.category,
+      //     formatter: "分类：",
+      //   },
+      //   {
+      //     getter: (page) => page.frontmatter.tag,
+      //     formatter: "标签：$content",
+      //   },
+      // ],
     }),
   ],
 

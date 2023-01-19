@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-49a01026\",\"path\":\"/md/interview/\",\"title\":\"Interview\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Interview\",\"description\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/md/interview/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"FC-Blog\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Interview\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"Interview\\\"}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\",\"autoDesc\":true}")
+export const data = JSON.parse("{\"key\":\"v-49a01026\",\"path\":\"/md/interview/\",\"title\":\"Interview\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Interview\"},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

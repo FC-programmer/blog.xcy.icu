@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: https://logo-1304336794.cos.ap-nanjing.myqcloud.com/logo_3.png
 heroText: 成神之路
 heroFullScreen: true
 tagline: 不积跬步无以至千里
@@ -14,9 +14,9 @@ projects:
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 友情链接
+    desc: 精选博客-GQBlog
+    link: http://zgq.cool
 
   - icon: book
     name: 书籍名称
@@ -33,7 +33,7 @@ projects:
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
-  - icon: /logo.svg
+  - icon: 
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接

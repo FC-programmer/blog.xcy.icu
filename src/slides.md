@@ -1,6 +1,6 @@
 ---
 title: 幻灯片页
-icon: slides
+icon: iconfont icon-line-slideshowhuandengpianfangying-02
 layout: Slide
 ---
 

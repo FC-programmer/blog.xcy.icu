@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-2ac2e710\",\"path\":\"/md/framework/\",\"title\":\"Framework\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Framework\",\"description\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/md/framework/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"FC-Blog\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Framework\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"Framework\\\"}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\",\"autoDesc\":true}")
+export const data = JSON.parse("{\"key\":\"v-2ac2e710\",\"path\":\"/md/framework/\",\"title\":\"Framework\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Framework\"},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

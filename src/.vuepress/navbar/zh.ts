@@ -1,11 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/",
-  { text: "面试", icon: "article", link: "/md/interview/x-interview-1.md" },
+  { text: "主页", icon: "iconfont icon-home-fill", link: "/" },
+  { text: "面试", icon: "iconfont icon-mianshi", link: "/md/interview/x-interview-1.md" },
   {
     text: "Java",
-    icon: "java",
+    icon: "iconfont icon-java1",
     prefix: "/md/java/",
     children: [
       {
@@ -35,7 +35,7 @@ export const zhNavbar = navbar([
 
   {
     text: "数据库",
-    icon: "mysql",
+    icon: "iconfont icon-shujuku1",
     prefix: "/md/db/",
     children: [
       {
@@ -65,7 +65,7 @@ export const zhNavbar = navbar([
 
   {
     text: "Spring",
-    icon: "leaf",
+    icon: "iconfont icon-leaf1",
     prefix: "/md/spring/",
     children: [
       {
@@ -79,7 +79,7 @@ export const zhNavbar = navbar([
 
   {
     text: "框架",
-    icon: "note",
+    icon: "iconfont icon-mn_kuangjia_fill",
     prefix: "/md/framework/",
     children: [
       {
@@ -92,4 +92,5 @@ export const zhNavbar = navbar([
       },
     ],
   },
+  { text: "关于作者", icon: "iconfont icon-aboutme", link: "/about-me.md" },
 ]);

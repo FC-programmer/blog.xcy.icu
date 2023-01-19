@@ -5,11 +5,11 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "文章",
-      icon: "note",
+      icon: "iconfont icon-16",
       prefix: "md/",
       children: "structure",
     },
-    "intro",
+    "about-me",
     "slides",
   ],
 });
