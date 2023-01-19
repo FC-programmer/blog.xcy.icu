@@ -1,0 +1,1 @@
+import{_ as e,V as t,W as c,X as a,Y as s}from"./framework-8842c3e4.js";const n={},r=a("h1",{id:"java-面向对象",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#java-面向对象","aria-hidden":"true"},"#"),s(" Java 面向对象")],-1),o=[r];function _(d,i){return t(),c("div",null,o)}const h=e(n,[["render",_],["__file","java-basic-lan.html.vue"]]);export{h as default};
