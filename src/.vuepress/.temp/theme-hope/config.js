@@ -21,8 +21,6 @@ import BlogHome from "D:/workkspace/WebstormProjects/FCBolg/node_modules/vuepres
 import BlogType from "D:/workkspace/WebstormProjects/FCBolg/node_modules/vuepress-theme-hope/lib/client/modules/blog/layouts/BlogType.js";
 import Timeline from "D:/workkspace/WebstormProjects/FCBolg/node_modules/vuepress-theme-hope/lib/client/modules/blog/layouts/Timeline.js";
 import "D:/workkspace/WebstormProjects/FCBolg/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
-import GlobalEncrypt from "@theme-hope/modules/encrypt/components/GlobalEncrypt";
-import LocalEncrypt from "@theme-hope/modules/encrypt/components/LocalEncrypt";
 import Slide from "D:/workkspace/WebstormProjects/FCBolg/node_modules/vuepress-theme-hope/lib/client/layouts/Slide.js";
 
 
@@ -40,8 +38,6 @@ export default defineClientConfig({
     injectDarkMode(app);
 
     app.component("BloggerInfo", BloggerInfo);
-    app.component("GlobalEncrypt", GlobalEncrypt);
-    app.component("LocalEncrypt", LocalEncrypt);
     
   },
   setup: () => {

@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-2e3eac9e\",\"path\":\"/slides.html\",\"title\":\"幻灯片页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"iconfont icon-line-slideshowhuandengpianfangying-02\",\"layout\":\"Slide\"},\"headers\":[],\"readingTime\":{\"minutes\":4.47,\"words\":1341},\"filePathRelative\":\"slides.md\",\"excerpt\":\"<!-- markdownlint-disable MD024 MD033 MD051 -->\\n\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-2e3eac9e\",\"path\":\"/slides.html\",\"title\":\"幻灯片页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"iconfont icon-line-slideshowhuandengpianfangying-02\",\"layout\":\"Slide\"},\"headers\":[],\"git\":{\"createdTime\":1674047633000,\"updatedTime\":1674110188000,\"contributors\":[{\"name\":\"Fuchen\",\"email\":\"1727195232@qq.com\",\"commits\":2}]},\"readingTime\":{\"minutes\":4.47,\"words\":1341},\"filePathRelative\":\"slides.md\",\"localizedDate\":\"2023年1月18日\",\"excerpt\":\"<!-- markdownlint-disable MD024 MD033 MD051 -->\\n\"}")

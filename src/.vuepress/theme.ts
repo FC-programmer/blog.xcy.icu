@@ -3,23 +3,22 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  // hostname: "https://mister-hope.github.io",
-
+  //作者
   author: {
-    name: "FC",
-    // url: "https://mrhope.site",
+    name: "FuChen",
+    url: "https://xcy.icu",
   },
-
+  //引入图标
   iconAssets: "https://at.alicdn.com/t/c/font_3867075_72cg9wkeehh.css",
-
+  //引入logo
   logo: "https://logo-1304336794.cos.ap-nanjing.myqcloud.com/logo_3.png",
-
-  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "docs",
 
-  fullscreen: true,
+  darkmode: "toggle",
 
+  fullscreen: true,
+  //其他blog
   blog: {
     medias: {
       Baidu: "https://baidu.com",
@@ -31,11 +30,8 @@ export default hopeTheme({
     },
   },
 
+  //引入其他配置文件
   locales: {
-
-    /**
-     * Chinese locale config
-     */
     "/": {
       // navbar
       navbar: zhNavbar,
@@ -43,25 +39,14 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "豫ICP备***号",
 
+      footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index">豫ICP备2023001076号-1</a>',
       displayFooter: true,
 
       blog: {
         description: "Java开发的初学者",
         intro: "/about-me.html",
       },
-
-      // page meta
-      // metaLocales: {
-      //   editLink: "在 GitHub 上编辑此页",
-      // },
-    },
-  },
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -139,61 +124,5 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    // uncomment these if you want a PWA
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
   },
 });

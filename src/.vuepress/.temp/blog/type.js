@@ -1,13 +1,2 @@
-export const typeMap = {"article":{"/":{"path":"/article/","keys":["v-6e19edb7","v-6a278876","v-f08387ee","v-141d7897","v-3f0b1149","v-41d63b3b","v-617ab0a4","v-0d233a93","v-69d731e9","v-4531b1d2","v-432c8f78","v-fd0cf4b0","v-2e3eac9e","v-4e65ec78","v-1473bf53"]}},"star":{"/":{"path":"/star/","keys":["v-6a278876","v-f08387ee","v-141d7897","v-3f0b1149","v-41d63b3b","v-617ab0a4","v-0d233a93","v-69d731e9","v-4531b1d2","v-432c8f78","v-6e19edb7"]}},"timeline":{"/":{"path":"/timeline/","keys":["v-6a278876","v-f08387ee","v-141d7897","v-3f0b1149","v-41d63b3b","v-617ab0a4","v-0d233a93","v-69d731e9","v-4531b1d2","v-432c8f78","v-6e19edb7"]}}};
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept();
-  if (__VUE_HMR_RUNTIME__.updateBlogType)
-    __VUE_HMR_RUNTIME__.updateBlogType(typeMap);
-}
-
-if (import.meta.hot)
-  import.meta.hot.accept(({ typeMap }) => {
-    __VUE_HMR_RUNTIME__.updateBlogType(typeMap);
-  });
+export const typeMap = {"article":{"/":{"path":"/article/","keys":["v-048ce638","v-7e0d34f3","v-72780ac1","v-c5e5db88","v-2e3eac9e","v-6e19edb7","v-1473bf53","v-7765d7ee","v-53c32d94","v-f6d1cb28","v-d8b58b04","v-fd0cf4b0","v-f08387ee","v-141d7897","v-3f0b1149","v-69d731e9","v-4531b1d2","v-432c8f78","v-41d63b3b","v-617ab0a4","v-0d233a93","v-649ee9f1","v-012f8ba8","v-05f21fa5"]}},"star":{"/":{"path":"/star/","keys":["v-048ce638","v-f08387ee","v-141d7897","v-3f0b1149","v-69d731e9","v-4531b1d2","v-432c8f78","v-41d63b3b","v-617ab0a4","v-0d233a93"]}},"timeline":{"/":{"path":"/timeline/","keys":["v-7e0d34f3","v-72780ac1","v-c5e5db88","v-2e3eac9e","v-6e19edb7","v-1473bf53","v-7765d7ee","v-53c32d94","v-f6d1cb28","v-048ce638","v-d8b58b04","v-fd0cf4b0","v-f08387ee","v-141d7897","v-3f0b1149","v-69d731e9","v-4531b1d2","v-432c8f78","v-41d63b3b","v-617ab0a4","v-0d233a93"]}}};
 

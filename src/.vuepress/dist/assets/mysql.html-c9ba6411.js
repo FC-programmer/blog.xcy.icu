@@ -1,0 +1,2 @@
+import{_ as e,V as a,W as s,a0 as t}from"./framework-abcd85d4.js";const l={},n=t(`<h1 id="mysql-相关命令" tabindex="-1"><a class="header-anchor" href="#mysql-相关命令" aria-hidden="true">#</a> MySQL 相关命令</h1><div class="language-mysql line-numbers-mode" data-ext="mysql"><pre class="language-mysql"><code>truncate table &lt;表名&gt;     #删除表数据并让id重新编号
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,2),c=[n];function d(r,i){return a(),s("div",null,c)}const m=e(l,[["render",d],["__file","mysql.html.vue"]]);export{m as default};

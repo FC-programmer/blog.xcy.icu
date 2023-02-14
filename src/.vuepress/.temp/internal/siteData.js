@@ -1,14 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"FCBlog\",\"description\":\"\"}}}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSiteData) {
-    __VUE_HMR_RUNTIME__.updateSiteData(siteData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ siteData }) => {
-    __VUE_HMR_RUNTIME__.updateSiteData(siteData)
-  })
-}
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"https://logo-1304336794.cos.ap-nanjing.myqcloud.com/logo_3.png\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"FCBlog\",\"description\":\"FC的小破站\"}}}")
